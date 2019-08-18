@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ToxicSet
 // @namespace    https://github.com/SaintRepublic/
-// @version      1.0
+// @version      1.1
 // @description  Beauty VK!
 // @author       SaintRepublic
 // @match        *://vk.com/*
