@@ -23,7 +23,6 @@
     //===============================================
     //Modify background
     var i = Math.floor(Math.random() * (images.length - 0))
-    console.log(i)
     document.body.style.background = "url("+images[i]+")";
     document.body.style.backgroundSize="100%";
     //===============================================
