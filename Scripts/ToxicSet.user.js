@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ToxicSet
 // @namespace    https://github.com/SaintRepublic/
-// @version      1.1
+// @version      1.0
 // @description  Beauty VK!
 // @author       SaintRepublic
 // @match        *://vk.com/*
@@ -35,6 +35,5 @@
     //Modify small shit
     element = menu.getElementsByClassName("left_menu_nav_wrap")[0];
     element.className += " page_block";
-    element.style.padding = "8px 0px 10px 10px";
-    //===============================================
+    element.style.padding = "8px 0px 6px 10px";
 })();
