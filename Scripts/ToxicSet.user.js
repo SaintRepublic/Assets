@@ -10,8 +10,8 @@
 
 (function() {
 
-    var images = ['https://thumb.cloud.mail.ru/thumb/xw1/Cloud%20Media/Picture/Toxic%20Set/Killzone.jpg?x-email=saintrepublic%40bk.ru',
-                  'https://thumb.cloud.mail.ru/thumb/xw1/Cloud%20Media/Picture/Toxic%20Set/Metro.jpg?x-email=saintrepublic%40bk.ru'
+    var images = ['https://thumb.cloud.mail.ru/thumb/xw1/Cloud%20Media/Picture/VK%20Backgrounds/Killzone.jpg?x-email=saintrepublic%40bk.ru',
+                  'https://thumb.cloud.mail.ru/thumb/xw1/Cloud%20Media/Picture/VK%20Backgrounds/Metro.jpg?x-email=saintrepublic%40bk.ru'
                  ]
 
     var ads = document.getElementById("ads_left");
