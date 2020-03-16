@@ -10,9 +10,10 @@
 
 (function() {
 
-    var images = ['https://thumb.cloud.mail.ru/thumb/xw1/Cloud%20Media/Picture/Backgrounds/Killzone.jpg?x-email=saintrepublic%40bk.ru',
-                  'https://thumb.cloud.mail.ru/thumb/xw1/Cloud%20Media/Picture/Backgrounds/Metro.jpg?x-email=saintrepublic%40bk.ru'
-                 ]
+    var images = [
+        'https://thumb.cloud.mail.ru/thumb/xw1/Cloud%20Media/Picture/Backgrounds/Killzone.jpg?x-email=saintrepublic%40bk.ru',
+        'https://thumb.cloud.mail.ru/thumb/xw1/Cloud%20Media/Picture/Backgrounds/Metro.jpg?x-email=saintrepublic%40bk.ru'
+    ]
 
     var ads = document.getElementById("ads_left");
     var menu = document.getElementById("side_bar_inner");
@@ -32,7 +33,10 @@
     element.style.margin = "0px";
     //===============================================
     //Modify small shit
-    element = menu.getElementsByClassName("left_menu_nav_wrap")[0];
-    element.className += " page_block";
-    element.style.padding = "8px 0px 6px 10px";
+    var elements = menu.getElementsByClassName("left_menu_nav_wrap");
+    for(i = 0, elements.length; i < elements.length; i++) {
+        element = elements[i]
+        element.className += " page_block";
+        element.style.padding = "8px 0px 6px 10px";
+    }
 })();
