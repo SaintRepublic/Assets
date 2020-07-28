@@ -11,8 +11,8 @@
 (function() {
 
     var images = [
-        'https://thumb.cloud.mail.ru/thumb/xw1/Cloud%20Media/Picture/Backgrounds/Killzone.jpg?x-email=saintrepublic%40bk.ru',
-        'https://thumb.cloud.mail.ru/thumb/xw1/Cloud%20Media/Picture/Backgrounds/Metro.jpg?x-email=saintrepublic%40bk.ru'
+        'https://raw.githubusercontent.com/SaintRepublic/Assets/master/Scripts/Toxic%20VK/Killzone.jpg',
+        'https://raw.githubusercontent.com/SaintRepublic/Assets/master/Scripts/Toxic%20VK/Metro.jpg'
     ]
 
     var ads = document.getElementById("ads_left");
